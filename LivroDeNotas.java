@@ -1,7 +1,19 @@
 public class LivroDeNotas{
     //variavel de instacia
     //instacia == objeto
-    String nomeDisciplina; //variavel
+    private String nomeDisciplina; //variavel
+    //private = modificador de acesso 
+        //encapsulamento
+
+    //metodo getters/setters 
+    //principio do menor privilégio
+    public String getNomeDisciplina(){
+        return nomeDisciplina; 
+    }
+    //setter
+    public void setNomeDisciplina(String nomeDisciplina){
+        this.nomeDisciplina = nomeDisciplina;
+    }
 
 
     public void exibirMensagem(){ //metodo

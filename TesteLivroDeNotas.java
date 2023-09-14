@@ -10,7 +10,10 @@ public class TesteLivroDeNotas{
         //livroDeNotas.nomeDisciplina = nomeDisciplina;
         //enviando 
         livroDeNotas.exibirMensagem(); 
+        System.out.println("A disciplina é " + livroDeNotas.getNomeDisciplina());
+        //livroDeNotas.nomeDisciplina = "Portugues"
         System.out.println("Ate logo"); 
+        livroDeNotas.setNomeDisciplina("Portugues"); 
         //. --> operador de acesso a membro 
         //new cria um objeto (heap)
     }
